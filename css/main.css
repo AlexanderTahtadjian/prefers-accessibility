@@ -62,20 +62,21 @@ html {
 }
 
 /* stylelint-disable media-feature-name-no-unknown */
-
 @media (prefers-reduced-motion) {
+
   img {
     animation: none;
   }
 }
 
 @media (prefers-color-scheme: dark) {
+
   body {
     background-color: #222;
   }
 
   .banner {
-    opacity: 0.5;
+    opacity: .5;
   }
 }
 /* stylelint-enable */
