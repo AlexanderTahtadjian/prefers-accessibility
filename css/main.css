@@ -62,11 +62,13 @@ html {
 }
 
 /* stylelint-disable media-feature-name-no-unknown */
+
 @media (prefers-reduced-motion) {
 
   img {
     animation: none;
   }
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -78,5 +80,6 @@ html {
   .banner {
     opacity: .5;
   }
+
 }
 /* stylelint-enable */
