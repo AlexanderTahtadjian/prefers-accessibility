@@ -69,4 +69,13 @@ html {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+  }
+
+  .banner {
+    opacity: 0.5;
+  }
+}
 /* stylelint-enable */
